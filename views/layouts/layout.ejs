@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: linen;
+      }
+      
+
+      .headingfile {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        color: maroon;
+        font-size: 45px;
+      }
+
+      .files {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        font-style: italic;
+      }
+
+      .search{
+        margin-top: 80px;
+        margin-left: 40px;
+        justify-content: left;
+        display: flex;
+        align-items: center;
+        color: rgb(0, 149, 255);
+      }
+
+      .search1{
+        margin-left: 40px;
+        margin-right: 20px;
+        justify-content: left;
+        display: flex;
+        align-items: center;
+      }
+
+      .search2{
+        margin-left: 40px;
+        margin-bottom: 8px;
+        margin-right: 20px;
+        margin-top: 4px;
+        justify-content: left;
+        flex-direction: column;
+        display: flex;
+        align-items: left;
+      }
+
+      .myDivElement {
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="../../public/header.css" />
+  </head>
+  <body>
+    <%- include('../partials/header.ejs')%> <%-
+    include('../partials/errorMessage.ejs') %> <%- body %>
+  </body>
+</html>
